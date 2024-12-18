@@ -1,2 +1,2 @@
 # terraform-ec2-deployment
-deploy your first ec2 using terraform
+# 🚀 Deploy your first EC2 using terraform
