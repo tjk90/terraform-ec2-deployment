@@ -66,11 +66,10 @@ Name = "MyfirstEC2"             is the name of our ec2 instance
 # Step 7 Terraform commands
 Now I will teach you about the primary commands use in terraform.
 ```sh
-**terraform init**: To prepare the working directory for use with Terraform, the terraform init command initializes the backend, installs child modules, and sets up plugins.
-
-**terraform plan**: The plan command generates an execution plan, outlining the actions that will be taken without actually executing them
-**terraform apply**: Create or update the infrastructure based on the configuration files. By default, a plan is generated first and must be approved before it is applied.
-**terraform apply -auto-approve**:Apply changes without the need to manually type ‘yes’ to approve the plan. This is useful for automating CI/CD pipelines.
-**terraform destroy**: Destroy the whole infrastructure managed by Terraform
+terraform init: To prepare the working directory for use with Terraform, the terraform init command initializes the backend, installs child modules, and sets up plugins.
+terraform plan: The plan command generates an execution plan, outlining the actions that will be taken without actually executing them
+terraform apply: Create or update the infrastructure based on the configuration files. By default, a plan is generated first and must be approved before it is applied.
+terraform apply -auto-approve:Apply changes without the need to manually type ‘yes’ to approve the plan. This is useful for automating CI/CD pipelines.
+terraform destroy: Destroy the whole infrastructure managed by Terraform
 ```
 
