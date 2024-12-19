@@ -9,7 +9,7 @@ Install [Terraform](https://developer.hashicorp.com/terraform/tutorials/aws-get-
  #
 ![vscode_extensions_install](https://github.com/user-attachments/assets/4bdfbef1-4858-4c9d-aa92-b9c374425a32)
 
-# Step 3 IAM user
+# Step 3 IAM User
 Create a [IAM user](https://guide.sst.dev/chapters/create-an-iam-user.html)
 and save the Secret access key
 # Step 4 Authentication
