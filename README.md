@@ -2,7 +2,9 @@
 # 🚀 Deploy your first EC2 using terraform
 
 # Step 1 
-Create a IAM user 
+Install Terraform 
+[Terraform](https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli)
+
 ![1](https://github.com/user-attachments/assets/0ac7f430-4f62-49f6-841e-a2be7c591093)
 ![2](https://github.com/user-attachments/assets/1ce36eee-a2a8-4411-ba2a-3095b3db799d)
 ![3](https://github.com/user-attachments/assets/67caac66-a325-4a8a-b76b-1c3bc5bdbbdb)
