@@ -30,7 +30,7 @@ To build are first EC2 with terrafomr we will need a provider and the resource
 Resources are a fundamental element of the Terraform language. They are components within a Terraform configuration that define infrastructure objects or services to be managed, such as an EC2 instance. On the other hand, providers are plugins that enable interaction with different infrastructure services and platforms. 
 
 # Step 5 Create project folder
-Create a Folder and name EC2. Open VSCODE and click on "File>Open Folder" and find the folder you have just created. Once you are inside the folder click on the "File" icon to create a new file and name it "myfirstec2.tf". Do not forget the ".tf" at the end!!!
+Create a Folder and name it EC2. Open VSCODE and click on "File>Open Folder" and find the folder you have just created. Once you are inside the folder click on the "File" icon to create a new file and name it "myfirstec2.tf". Do not forget the ".tf" at the end!!!
 ![VSCODE_new_file](https://github.com/user-attachments/assets/ac35e611-1e99-4654-9839-d58c9f3609ce)
 
 # Step 6 EC2 infrastructure 
