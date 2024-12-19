@@ -34,7 +34,7 @@ Create a Folder and name EC2. Open VSCODE and click on "File>Open Folder" and fi
 ![VSCODE_new_file](https://github.com/user-attachments/assets/ac35e611-1e99-4654-9839-d58c9f3609ce)
 
 # Step 7 EC2 infrastructure 
-After creating the "myfirstec2.tf" file you should be able to write your first terraform code in the right. Copy and paste:
+After creating the "myfirstec2.tf" file, you should be able to write your first terraform code in the right. Copy and paste:
 ```sh
 provider "aws" {
   region = "us-east-1"
