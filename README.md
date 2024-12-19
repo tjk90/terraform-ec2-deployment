@@ -85,5 +85,5 @@ Next, if everything looks ok, type "terraform apply"
 ```sh
 terraform apply
 ```
-
+Now go to your AWS Console and check the EC2 Instance status. It should be in pending stating
 
