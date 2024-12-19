@@ -72,4 +72,18 @@ terraform apply: Create or update the infrastructure based on the configuration 
 terraform apply -auto-approve:Apply changes without the need to manually type ‘yes’ to approve the plan. This is useful for automating CI/CD pipelines.
 terraform destroy: Destroy the whole infrastructure managed by Terraform
 ```
+# Step 8 Creating the infrastructure 
+Inside VSCODE terminal type "terraforn init" to initialize:
+```sh
+terraform init
+```
+Now type "terraform plan" to check the resource that you will be building (ec2)
+```sh
+terraform plan
+```
+Next, if everything looks ok, type "terraform apply"
+```sh
+terraform apply
+```
+
 
