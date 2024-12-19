@@ -24,7 +24,7 @@ You will be ask for the Access Key, Secret Key and default region from >> Step 3
 The AWS Provider can source credentials and other settings from the shared configuration and credentials files. By default, these files are located at $HOME/.aws/config and $HOME/.aws/credentials on Linux and macOS, and "%USERPROFILE%\.aws\config" and "%USERPROFILE%\.aws\credentials" on Windows.
 
 # Note!!! 
-To build are first EC2 with terrafomr we will need a provider and the resource 
+To build are first EC2 with terraform we will need a provider and the resource 
 #
 # For your understanding
 Resources are a fundamental element of the Terraform language. They are components within a Terraform configuration that define infrastructure objects or services to be managed, such as an EC2 instance. On the other hand, providers are plugins that enable interaction with different infrastructure services and platforms. 
