@@ -49,3 +49,19 @@ resource "aws_instance" "web" {
   }
 }
 ```
+# For your understanding
+I will brake down the code to explain.
+```sh
+
+provider "aws"  is the plugin
+region = "us-east-1"  is well.. the region for the infrastructure
+resource "aws_instance" "web" is the resouce we are building with the name "web"
+ami  = "ami-0e2c8caa4b6378d8c" is the Amazon Machine Image (ami) ID. This is the OS that we are choosing for our ec2 intance
+instance_type = "t2.micro" is the hardware type we are choosing like CPU, memory, storage, and networking capacity
+
+tags = {
+Name = "MyfirstEC2" 
+
+
+
+
