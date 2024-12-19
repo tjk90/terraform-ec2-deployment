@@ -62,6 +62,14 @@ instance_type = "t2.micro"      is the hardware type we are choosing like CPU, m
 tags = {
 Name = "MyfirstEC2"             is the name of our ec2 instance 
 
+```
+# Step 7 Terraform commands
+Now I will teach you about the primary commands use in terraform.
 
+**terraform init**: To prepare the working directory for use with Terraform, the terraform init command initializes the backend, installs child modules, and sets up plugins.
+
+**terraform plan**: The plan command generates an execution plan, outlining the actions that will be taken without actually executing them
+terraform apply
+terraform destroy
 
 
